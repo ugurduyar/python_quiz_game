@@ -27,3 +27,10 @@ if question3 == "C" or question3 == "c":
 else:
     print("Sorry, that was wrong\n")
 print("You have {} points!\n".format(points))
+question4 = input("Who invented the first car? \nA)Henry Ford \nB)Nicolas-Joseph Cugnot\nC)George B. Selden\nD)Karl Benz\nYour answer is: ")
+if question4 == "D" or question4 == "d":
+    print("Congratulations!\n")
+    points += 1
+else:
+    print("Sorry, that was wrong\n")
+print("You have {} points!\n".format(points))
