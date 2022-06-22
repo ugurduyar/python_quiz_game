@@ -1,1 +1,2 @@
-print("Welcome to the game!")
+print("Welcome to python quiz!")
+want_to_play = input("Type ok if you are ready")
