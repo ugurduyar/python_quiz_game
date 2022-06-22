@@ -1,2 +1,1 @@
-name = "ugur"
-print(name)
+print("Welcome to the game!")
