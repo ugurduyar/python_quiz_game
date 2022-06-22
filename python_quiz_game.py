@@ -34,3 +34,10 @@ if question4 == "D" or question4 == "d":
 else:
     print("Sorry, that was wrong\n")
 print("You have {} points!\n".format(points))
+question5 = input("NATO was formed in ... \nA)1949 \nB)1945\nC)1952\nD)1941\nYour answer is: ")
+if question5 == "A" or question5 == "a":
+    print("Congratulations!\n")
+    points += 1
+else:
+    print("Sorry, that was wrong\n")
+print("You have {} points!\n".format(points))
