@@ -12,4 +12,4 @@ if question1 == "A" or question1 == "a":
     points += 1
 else:
     print("Sorry, that was wrong")
-print(points)
+print("You have {} points!".format(points))
