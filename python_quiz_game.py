@@ -48,4 +48,5 @@ else:
 print("You have {} points!\n".format(points))
 question_count += 1
 print("Congratulations! You did {} out of {} ".format(points,question_count))
-print("You did {} percent right".format(round((points/question_count)*100)))
+print("You did {} percent right\n".format(round((points/question_count)*100)))
+input("Thanks for playing!")
