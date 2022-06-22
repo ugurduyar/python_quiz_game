@@ -7,7 +7,7 @@ else:
     print("Let's get started!")
 points = 0
 question1 = input("What year did the world war 2 start? \nA)1939 \nB)1938\nC)1937\nD)1936\nYour answer is: ")
-if question1 == "a":
+if question1 == "A" or question1 == "a":
     print("Congratulations!")
     points += 1
 else:
